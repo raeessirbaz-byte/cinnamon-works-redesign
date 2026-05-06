@@ -84,6 +84,55 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Farm Section */}
+      <section id="farm" className="container" style={{ padding: '8rem 0', background: 'rgba(30, 58, 138, 0.02)', borderRadius: '3rem' }}>
+        <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <span className="handwritten">Beyond the Bakery</span>
+          <h2 style={{ fontSize: '3rem', marginTop: '1rem' }}>The Owners & Their Farm</h2>
+          <p style={{ color: 'var(--soft-blue-gray)', maxWidth: '800px', margin: '1rem auto' }}>
+            When Mike and Judy aren't at the bakery, they are busy tending to their charming farm on Vashon Island.
+          </p>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem' }}>
+          <div style={{ background: '#fff', padding: '2rem', borderRadius: '2rem', border: '1px solid var(--border-color)' }}>
+            <h3 style={{ color: 'var(--pink-accent)', fontSize: '1.25rem', marginBottom: '1rem' }}>The Sheep</h3>
+            <p style={{ color: 'var(--soft-blue-gray)', fontSize: '0.95rem' }}>
+              The bakery takes "waste not, want not" to heart. Leftover baked goods are used to feed the adorable sheep at the farm, who even participate in the Vashon Island Sheepdog Classic.
+            </p>
+          </div>
+          <div style={{ background: '#fff', padding: '2rem', borderRadius: '2rem', border: '1px solid var(--border-color)' }}>
+            <h3 style={{ color: 'var(--pink-accent)', fontSize: '1.25rem', marginBottom: '1rem' }}>Fresh Zucchini</h3>
+            <p style={{ color: 'var(--soft-blue-gray)', fontSize: '0.95rem' }}>
+              Zucchini is a prime ingredient in our favorite recipes and is grown right at the farm. We also grow tomatoes, cucumbers, onions, and plums.
+            </p>
+          </div>
+          <div style={{ background: '#fff', padding: '2rem', borderRadius: '2rem', border: '1px solid var(--border-color)' }}>
+            <h3 style={{ color: 'var(--pink-accent)', fontSize: '1.25rem', marginBottom: '1rem' }}>Our Favorite Scout</h3>
+            <p style={{ color: 'var(--soft-blue-gray)', fontSize: '0.95rem' }}>
+              Daughter Gracie knows the bakery inside-out. As a Girl Scout, she supplies the cookies used in our famous Bull's Eye cookie!
+            </p>
+          </div>
+        </div>
+
+        <div style={{ marginTop: '4rem', padding: '3rem', background: '#fff', borderRadius: '2rem', border: '1px solid var(--border-color)', display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '3rem', alignItems: 'center' }}>
+          <img 
+            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800" 
+            alt="Vashon Island Farm" 
+            style={{ width: '100%', borderRadius: '1.5rem' }}
+          />
+          <div>
+            <h3 style={{ marginBottom: '1rem' }}>A Legacy of Passion</h3>
+            <p style={{ color: 'var(--soft-blue-gray)', marginBottom: '1rem' }}>
+              Mike has owned Cinnamon Works for over 35 years. Originally a history teacher and carpenter, he now pursues his passion for baking while enjoying black coffee and the soundtrack of Grease.
+            </p>
+            <p style={{ color: 'var(--soft-blue-gray)' }}>
+              Judy brings her own creativity, manages the team, and leads their daughter's Girl Scout Troop, all while bringing her experience as a former nurse to the bakery family.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Items */}
       <section className="container" style={{ paddingBottom: '8rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
